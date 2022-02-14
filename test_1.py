@@ -12,7 +12,7 @@ def browser():
     driver.implicitly_wait(1)
     yield
     driver.quit()
-    print('Test comleted')
+    print('Test comletd')
 
 @allure.feature('Check')
 @allure.story('Open site and type credentials')
